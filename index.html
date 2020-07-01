@@ -10,15 +10,29 @@
     </head>
     <body>
         <div class="container">
-            <input type="text" id="js-input" placeholder="Enter Your Message to decrypt">
-            <label id="Shift-key">Secret key:</label>
-            <input type="number" id="js-numb">
-            <button class="btn js-btn">Decrypt Me</button>
+            <h1>Ceaser Cipher<span>
+                <img src="icon.png" alt="secretkey" class="logo">
+            </span></h1>
+            <p class="info">
+                The Caesar cipher is a type of substitution cipher in which each
+                letter in the plaintext is shifted to a certain number of places
+                down the alphabet.The method is named after Julius Caesar, who
+                allegedly used it to communicate with his generals.
+            </p>
+            <div class="input-sect">
+                <input type="text" class="js-input" placeholder="Enter Your Message to decrypt" autofocus>
+                <div>
+                    <label class="shift-key">Secret key:</label>
+                    <input type="number" class="js-numb">
+                </div>
+                <div class="btn-sect">
+                    <button class="btn encrypt-btn">Encrypt Me</button>
+                    <button class="btn decrypt-btn">Decrypt Me</button>
+                </div>
+            </div>
         </div>        
-        <div class="new-msg">
-
-        </div>
+        <div class="new-msg"></div>
         
-        <!-- <script src="secret.js" async defer></script> -->
+        <script src="secret.js" async defer></script>
     </body>
 </html>
