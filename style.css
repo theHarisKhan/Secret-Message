@@ -32,12 +32,13 @@ h1{
     justify-content: center;
 }
 input{
-    height: 26px;
+    height: 39px;
     outline: none;
     border: 1px solid;
     border-radius: 8px;
     margin-bottom: 21px;
-    padding: 2px 7px;
+    padding: 1px 7px;
+    font-size: 1em;
     font-weight: bold;
     background-color: transparent;
 }
